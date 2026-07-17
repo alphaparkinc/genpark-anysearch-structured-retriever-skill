@@ -1,0 +1,24 @@
+{
+  "name": "genpark-anysearch-structured-retriever-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - AnySearch fast JSON data converter.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "search",
+    "json",
+    "anysearch"
+  ],
+  "inputs": {
+    "raw_unstructured_data": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "structured_json": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
